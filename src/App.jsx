@@ -24,8 +24,8 @@ function App() {
   }, [])
   
   return !loading ? (
-    <div className=' flex flex-wrap bg-black'>
-      <div className='w-full block'>
+    <div className='flex flex-wrap bg-black'>
+      <div className='w-full'>
         <Header />
         <main>
           <Outlet />

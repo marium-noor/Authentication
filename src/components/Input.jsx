@@ -10,10 +10,10 @@ const Input = forwardRef(function Input({
 }, ref) {
     const id = useId()
   return (
-    <div className='w-full'>
+    <div className='w-full flex item-center justify-center flex-row my-3'>
         {label && <label
         htmlFor={id}
-        className='pl-1 mb-1 inline-block'>{label}</label>}
+        className='w-1/2 pt-2'>{label}</label>}
 
         <input 
         type={type}
